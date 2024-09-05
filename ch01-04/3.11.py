@@ -1,0 +1,12 @@
+number = eval(input("Please Enter a 4 digit number:"))
+n1 = number % 10
+number = number // 10
+n2 = number %10
+number = number // 10
+n3 = number %10
+number= number // 10
+n4 = number
+print(n1, end='')
+print(n2, end='')
+print(n3, end='')
+print(n4, end='')
